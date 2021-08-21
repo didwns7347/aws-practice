@@ -9,7 +9,7 @@ ec2 = new AWS.EC2({
 });
 
 ec2.stopInstances({
-  InstanceIds: ['i-0112887371112fbfd'],
+  InstanceIds: ['i-0640f4dcf1715f007'],
   DryRun: false,
   Force: false
 }, function (error, data) {
